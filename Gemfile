@@ -10,4 +10,4 @@ gem 'jekyll-paginate'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
 
-gem "github-pages", "~> 225", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
