@@ -18,10 +18,10 @@ title: Resume
         {% for experience in sorted_experiences %}
           {% if experience.category == category %}
             <article class="resume">
-                <a href="{{ site.baseurl }}{{ experience.url }}">
-                  <h2>{{ experience.title }}</h2>
-                </a>
+                <a href="{{ experience.website}}" target="_blank">
+                <h2>{{ experience.title }}</h2>
                 <h3>{{ experience.subtitle }}</h3>
+                </a>
                 <h4>{{ experience.location }} [{{ experience.startdate }} - {{ experience.enddate }}]</h4>
                 <div>{{ experience.excerpt }}</div>
             </article>
