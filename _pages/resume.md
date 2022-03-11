@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: resume
 permalink: /resume/
 title: My Resume
 ---
-<div style="text-align: right">
-<a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" download> DOWNLOAD PDF </a>
-</div>
+
 <div class="resume">
   <!-- defining categories for resume -->
   {% assign categories = "EDUCATION|PROFESSIONAL EXPERIENCES|TEACHING EXPERIENCE|VOLUNTEERING" | split: "|" %}
