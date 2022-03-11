@@ -1,8 +1,12 @@
 #
 # This file contains configuration flags to customize your site
 #
+collections_dir: my_collections
+
 collections:
   - experiences
+  - misc
+  - fables
 
 # Name of your site (displayed in the header)
 name: Camille Fabo
