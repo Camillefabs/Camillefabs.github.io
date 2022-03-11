@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 title: My Resume
 ---
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: -1.5%">
   <button>
     <a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" download class="button"> DOWNLOAD PDF </a>
   </button>
