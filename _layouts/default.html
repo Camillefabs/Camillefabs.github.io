@@ -3,6 +3,7 @@
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
+    
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
@@ -28,11 +29,16 @@
             </div>
 
             <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ site.baseurl }}/">Works</a>
+              <a href="{{ site.baseurl }}/resume">Resume</a>
+              <!---
               <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
               <a href="{{ site.baseurl }}/search">Search</a>
+              <a href="{{ site.baseurl }}/archive">Archive</a>       
+                            --->
+
               <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/archive">Archive</a>
+
             </nav>
           </header>
         </div>
