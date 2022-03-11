@@ -1,6 +1,6 @@
 ---
 layout: post
-title: College Sœur Rosalie (high school)
+title: College Sœur Rosalie
 subtitle: French Literature Teacher
 startdate: 2020
 enddate: 2020
