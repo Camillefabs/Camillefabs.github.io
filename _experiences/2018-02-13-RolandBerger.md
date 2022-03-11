@@ -6,7 +6,8 @@ startdate: 2018
 enddate: 2018
 location: Paris, France
 category: PROFESSIONAL EXPERIENCES
+website: "https://www.rolandberger.com/en/?country=GB"
 ---
-- Conducted a mission for Women in Africa Philanthropy (Entrepreneurship Program 54): Selected 54 women entrepreneurs – one per African country (assessment, capital risk...) Organized the training program and WIA Annual Summit in Marrakesh (Sept 2018)
+- Conducted a mission for **Women in Africa Philanthropy** (Entrepreneurship Program 54): Selected **54 women entrepreneurs** – one per African country (assessment, capital risk...). Organized the training program and WIA Annual Summit in Marrakesh (Sept 2018)
 - Strategy project for large caps:
-Conceived and implemented a roadmap of a digital platform (€25 M Targeted additional revenues)
+Conceived and **implemented a roadmap of a digital platform** (€25 M Targeted additional revenues)

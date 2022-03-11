@@ -1,10 +1,11 @@
 ---
-layout: resume
+layout: page
 permalink: /resume/
-title: Resume
+title: My Resume
 ---
-<a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" class="button alt" download>DOWNLOAD PDF</a>
-
+<div style="text-align: right">
+<a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" download> DOWNLOAD PDF </a>
+</div>
 <div class="resume">
   <!-- defining categories for resume -->
   {% assign categories = "EDUCATION|PROFESSIONAL EXPERIENCES|TEACHING EXPERIENCE|VOLUNTEERING" | split: "|" %}
@@ -18,10 +19,10 @@ title: Resume
         {% for experience in sorted_experiences %}
           {% if experience.category == category %}
             <article class="resume">
-                <a href="{{ experience.website}}" target="_blank">
+                <a href="{{ experience.website}}" {% if experience.website !="" %}target="_blank"{%endif%}>
                 <h2>{{ experience.title }}</h2>
-                <h3>{{ experience.subtitle }}</h3>
                 </a>
+                <h3>{{ experience.subtitle }}</h3>
                 <h4>{{ experience.location }} [{{ experience.startdate }} - {{ experience.enddate }}]</h4>
                 <div>{{ experience.excerpt }}</div>
             </article>
