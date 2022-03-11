@@ -3,6 +3,7 @@ layout: resume
 permalink: /resume/
 title: Resume
 ---
+<a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" class="button alt" download>DOWNLOAD PDF</a>
 
 <div class="resume">
   {% for category in site.categories %}
