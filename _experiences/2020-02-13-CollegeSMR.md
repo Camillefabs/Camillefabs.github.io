@@ -5,5 +5,6 @@ subtitle: French Literature Teacher
 startdate: 2020
 enddate: 2020
 location: Paris, France
-categories: [TEACHING EXPERIENCE]
+category: TEACHING EXPERIENCE
 ---
+ 

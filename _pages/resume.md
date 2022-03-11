@@ -6,16 +6,19 @@ title: Resume
 <a href="../_pages/resume/Camille_Fabo_Resume_2022.pdf" class="button alt" download>DOWNLOAD PDF</a>
 
 <div class="resume">
-  {% for category in site.categories %}
+  <!-- defining categories for resume -->
+  {% assign categories = "EDUCATION|PROFESSIONAL EXPERIENCES|TEACHING EXPERIENCE|VOLUNTEERING" | split: "|" %}
+
+  {% for category in categories %}
     <div class="archive-group">
-      {% capture category_name %}{{ category | first }}{% endcapture %}
-      <div id="#{{ category_name | slugize }}"></div>
-      <h1 class="page">{{ category_name }}</h1>
-      <a name="{{ category_name | slugize }}"></a>
-        {% for experience in site.posts %}
-          {% if experience.categories[0] == category_name %}
+      <div id="#{{ category | slugize }}"></div>
+      <h1 class="page">{{ category }}</h1>
+      <a name="{{ category | slugize }}"></a>
+        {% assign sorted_experiences = site.experiences | sort: 'date' | reverse %}
+        {% for experience in sorted_experiences %}
+          {% if experience.category == category %}
             <article class="resume">
-                <a href="{{ site.baseurl }}{{ post.url }}">
+                <a href="{{ site.baseurl }}{{ experience.url }}">
                   <h2>{{ experience.title }}</h2>
                 </a>
                 <h3>{{ experience.subtitle }}</h3>
